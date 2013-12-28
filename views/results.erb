@@ -1,0 +1,15 @@
+<section>
+<header>
+    <h1>Pig Latin Translator</h1>
+</header>
+<form action='/' method="POST">
+  <div class="left_column">
+    <textarea name="english" placeholder="Paste Text Here"></textarea>
+  </div>
+  <div class="right_column">
+    <textarea name="translation" placeholder="See Translation Here"><%=@start.options(params.values)%></textarea>
+  </div>
+  <br>
+  <button type="submit" value="submit">Translate</button>
+</form>
+</section>
