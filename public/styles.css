@@ -1,8 +1,8 @@
 textarea {
-  /*resize:fixed;*/
+  resize:fixed;
   font-family: monospace;
   font-size: 16px;
-  width:99%;
+  width:90%;
   height:250px;
   background: #fff;
   border: 1px solid #afb2b8;
