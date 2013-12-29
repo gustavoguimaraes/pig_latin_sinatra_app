@@ -1,31 +1,63 @@
 textarea {
-  resize:fixed;
+  resize:none;
+  display: inline-block;
   font-family: monospace;
   font-size: 16px;
-  width:90%;
+  width:100%;
   height:250px;
   background: #fff;
   border: 1px solid #afb2b8;
 }
-.left_column, .right_column {
-  width: 50%;
+
+div{
+ display: block;
+}
+
+form {
+display: block;
+margin-top: 0em;
+}
+
+header {
+padding-right: 24px;
+text-align: center;
+
+color: #46923A;
+}
+
+.application {
+max-width: 1140px;
+margin: 0 auto;
+padding: 0 10px;
+min-width: 440px;
+}
+
+.left_column {
+  width: 49%;
   display: inline-block;
   border-left: 0;
   border-right:0;
 }
 
+.right_column {
+  width: 49%;
+  display: inline-block;
+  border-left: 0;
+  border-right:0;
+}
+
+button{
+  margin: 15px 0;
+  font-family: inherit;
+  font-size: 100%;
+}
+
 body {
- 
   background: url('http://www.icebergtees.com/wp-content/uploads/2012/02/i-speak-pig-latin.png') no-repeat bottom center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 31%;
   background-color: #CFD0D4;
-}
-
-h1 {
-  text-align: center;
-  color: #46923A;
 }
 

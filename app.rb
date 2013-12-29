@@ -12,6 +12,6 @@ erb :index
 end
 
 post '/' do 
- 
+
 erb :results
 end
