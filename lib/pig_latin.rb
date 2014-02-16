@@ -10,9 +10,9 @@ class Pig_latin
   def options(word)
      @string = word
        temp = []
-         @string[0].scan(/[\w']+/).each do |elem|
-          array_char = elem.split(//)
-           temp << pig_latinize(array_char) + " "
+         @string[0].scan(/(\w+)(\S+)/).each do |elem|
+          array_char = elem[0].split(//)
+           temp << pig_latinize(array_char) + elem[1] + " "
         end
     temp.join("")
   end
